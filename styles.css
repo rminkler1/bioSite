@@ -7,7 +7,7 @@ BioSite
 
 body {
     font-family: Tahoma, Helvetica, sans-serif;
-    padding: 0;
+    background-color: #e5f4f3;
     margin: 0;
 }
 
@@ -38,8 +38,8 @@ a:visited {
 
 
 .md-circle-img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     clip-path: circle();
 }
 
@@ -52,17 +52,17 @@ blockquote {
 
 .white-block {
     background-color: #ffffff;
-    padding: 30px;
+    padding: 100px;
 }
 
 .md-blue-block {
     background-color: #03a696;
-    padding: 30px;
+    padding: 100px;
 }
 
 .lt-blue-block {
     background-color: #e5f4f3;
-    padding: 30px;
+    padding: 100px;
 }
 
 .card-img {
@@ -118,9 +118,9 @@ nav a, nav a:visited {
 
 nav a:hover, nav a:active {
     color: white;
+    text-decoration: underline;
     text-shadow: 2px 2px 2px #025159, 
                  0px 3px 10px #e5f4f3;
-    text-decoration: underline;
 }
 
 /* Footer CSS */
@@ -145,23 +145,26 @@ footer p {
 /* Column layout */
 .grid-2-col {
     display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 20px 20px;
-    margin: 0px;
-    padding: 50px 0px;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 50px;
 }
 
 .grid-3-col {
-    width: 100%;
     display: grid;
-    grid-template-columns: minmax(270px, 33%) minmax(250px, 34%) minmax(250px, 33%);
-    gap: 20px 20px;
-    margin: 0px;
-    padding: 50px 0px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .col-center {
     place-items: start center;
+}
+
+.justify-center {
+    justify-self: center;
+}
+
+.col-2-text-block {
+    grid-column: span 2;
+    padding: 0 0 0 100px;
 }
 
 .hero-img {
@@ -170,6 +173,31 @@ footer p {
 }
 
 .hero-text {
-    padding: 0 100px 0 120px;
-    justify-self: center;
+    padding: 0 0 0 50px;
 }
+
+.three-image-bar {
+    padding: 50px;
+    place-items: start center;
+}
+
+.image-and-text-container {
+    padding: 0 0 50px 0;
+}
+
+
+/*
+Responsive Design for small screens
+*/
+@media screen and (max-width: 1000px) {
+    .grid-3-col, .grid-2-col {
+        grid-template-columns: 1fr;
+    }
+    #orange-nav-bar {
+        visibility: hidden;
+    }
+    .col-2-text-block {
+        grid-column: span 1;
+        padding: 20px 20px;
+    }
+  }
