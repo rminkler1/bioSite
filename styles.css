@@ -11,6 +11,7 @@ body {
     margin: 0;
 }
 
+/* Text and Link Formatting */
 h1 {
     color: #012e40;
 }
@@ -36,20 +37,7 @@ a:visited {
     color: #038c8c;
 }
 
-
-.md-circle-img {
-    width: 250px;
-    height: 250px;
-    clip-path: circle();
-}
-
-blockquote {
-    padding: 30px;
-    border-left: 3px solid #025159;
-    background-color: #e5f4f3;
-    box-shadow: 5px 8px 15px #02515955;
-}
-
+/* General Page Background Color Blocks */
 .white-block {
     background-color: #ffffff;
     padding: 100px;
@@ -65,6 +53,22 @@ blockquote {
     padding: 100px;
 }
 
+/* Circle Images */
+.md-circle-img {
+    width: 250px;
+    height: 250px;
+    clip-path: circle();
+}
+
+/* Blockquote */
+blockquote {
+    padding: 30px;
+    border-left: 3px solid #025159;
+    background-color: #e5f4f3;
+    box-shadow: 5px 8px 15px #02515955;
+}
+
+/* Image Card Formatting */
 .card-img {
     object-fit: cover;
     border-radius: 25px;;
