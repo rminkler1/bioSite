@@ -68,8 +68,8 @@ blockquote {
 .card-img {
     object-fit: cover;
     border-radius: 25px;;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     box-shadow: 5px 8px 15px #02515955;
 }
 
@@ -80,8 +80,7 @@ blockquote {
 }
 
 .card-figure {
-    padding: 20px;
-    width: 350px;
+    width: 250px;
 }
 
 figure {
@@ -120,7 +119,8 @@ nav a, nav a:visited {
 nav a:hover, nav a:active {
     color: white;
     text-shadow: 2px 2px 2px #025159, 
-                 0px 8px 8px #038c8c;
+                 0px 3px 10px #e5f4f3;
+    text-decoration: underline;
 }
 
 /* Footer CSS */
@@ -147,12 +147,29 @@ footer p {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px 20px;
-    padding: 20px;
+    margin: 0px;
+    padding: 50px 0px;
 }
 
 .grid-3-col {
+    width: 100%;
     display: grid;
-    grid-template-columns: 33% 34% 33%;
+    grid-template-columns: minmax(270px, 33%) minmax(250px, 34%) minmax(250px, 33%);
     gap: 20px 20px;
-    padding: 20px;
+    margin: 0px;
+    padding: 50px 0px;
+}
+
+.col-center {
+    place-items: start center;
+}
+
+.hero-img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.hero-text {
+    padding: 0 100px 0 120px;
+    justify-self: center;
 }
