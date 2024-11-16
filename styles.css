@@ -55,7 +55,6 @@ a:visited {
 
 /* Circle Images */
 .md-circle-img {
-    width: 250px;
     height: 250px;
     clip-path: circle();
 }
