@@ -99,16 +99,9 @@ header {
 header a, header a:visited {
     padding: 26px 30px 26px 10px;
     display: block;
-    color: #e5f4f3;
-    text-decoration: none;
     float: left;
 }
 
-header a:hover, header a:active {
-    color: white;
-    text-shadow: 2px 2px 2px #025159, 
-                 0px 8px 8px #038c8c;
-}
 
 #orange-nav-bar {
     background-color: #f28705;
@@ -119,20 +112,39 @@ header a:hover, header a:active {
     right: 0;
 }
 
+/* Navigation Link CSS for both nav panels */
+nav a, nav a:visited {
+    color: #e5f4f3;
+    text-decoration: none;
+}
 
-/* Change menu on small screens */
-/*
-@media (max-width:700px) { 
-    #orange-nav-bar {
-        display: none;
-    }
-    header a {
-        text-align: center;
-        border-top: 1px solid #038c8c;
-        float: none;
-    }
+nav a:hover, nav a:active {
+    color: white;
+    text-shadow: 2px 2px 2px #025159, 
+                 0px 8px 8px #038c8c;
+}
 
-    header {
-        padding: 0px;
-    }
- } */
+/* Footer CSS */
+
+footer {
+    background-color: #025159;
+    text-align: center;
+    padding: 30px 10px 5px 10px;
+    color: #e5f4f3;
+    white-space: nowrap;
+}
+
+footer a {
+    color: #e5f4f3;
+    text-decoration: none;
+}
+
+.footer-divider {
+    margin: 40px;
+    color: #f28705;
+}
+
+footer p {
+    margin: 20px auto 10px auto;
+    font-size: .8em;
+}
