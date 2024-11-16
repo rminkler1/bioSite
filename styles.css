@@ -88,7 +88,7 @@ figure {
     text-align: center;
 }
 
-/* Begin Header CSS */
+/* Header CSS */
 header {
     border-top: 30px solid #038c8c;
     background-color: #025159;
@@ -101,7 +101,6 @@ header a, header a:visited {
     display: block;
     float: left;
 }
-
 
 #orange-nav-bar {
     background-color: #f28705;
@@ -125,7 +124,6 @@ nav a:hover, nav a:active {
 }
 
 /* Footer CSS */
-
 footer {
     background-color: #025159;
     text-align: center;
@@ -134,12 +132,7 @@ footer {
     white-space: nowrap;
 }
 
-footer a {
-    color: #e5f4f3;
-    text-decoration: none;
-}
-
-.footer-divider {
+.text-divider {
     margin: 40px;
     color: #f28705;
 }
@@ -147,4 +140,19 @@ footer a {
 footer p {
     margin: 20px auto 10px auto;
     font-size: .8em;
+}
+
+/* Column layout */
+.grid-2-col {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px 20px;
+    padding: 20px;
+}
+
+.grid-3-col {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    gap: 20px 20px;
+    padding: 20px;
 }
