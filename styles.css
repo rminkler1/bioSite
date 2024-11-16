@@ -87,3 +87,51 @@ blockquote {
 figure {
     text-align: center;
 }
+
+/* Begin Header CSS */
+header {
+    border-top: 30px solid #038c8c;
+    background-color: #025159;
+    padding: 0px 50px;
+    overflow: hidden;
+}
+
+header a, header a:visited {
+    padding: 26px 30px 26px 10px;
+    display: block;
+    color: #e5f4f3;
+    text-decoration: none;
+    float: left;
+}
+
+header a:hover, header a:active {
+    color: white;
+    text-shadow: 2px 2px 2px #025159, 
+                 0px 8px 8px #038c8c;
+}
+
+#orange-nav-bar {
+    background-color: #f28705;
+    margin-top: 50px;
+    height: 5px;
+    width: 60%;
+    position: absolute;
+    right: 0;
+}
+
+
+/* Change menu on small screens */
+@media (max-width:700px) { 
+    #orange-nav-bar {
+        display: none;
+    }
+    header a {
+        text-align: center;
+        border-top: 1px solid #038c8c;
+        float: none;
+    }
+
+    header {
+        padding: 0px;
+    }
+ }
