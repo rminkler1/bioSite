@@ -121,6 +121,7 @@ header a:hover, header a:active {
 
 
 /* Change menu on small screens */
+/*
 @media (max-width:700px) { 
     #orange-nav-bar {
         display: none;
@@ -134,4 +135,4 @@ header a:hover, header a:active {
     header {
         padding: 0px;
     }
- }
+ } */
