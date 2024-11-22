@@ -205,10 +205,10 @@ footer p {
 
 /*
 Responsive Design for small screens
-
+*/
 @media screen and (max-width: 1025px) {
 
-    /* Switch to single col layout on small screens 
+    /* Switch to single col layout on small screens */
     .grid-3-col, .grid-2-col {
         grid-template-columns: 1fr;
     }
@@ -218,13 +218,15 @@ Responsive Design for small screens
         visibility: hidden;
     }
 
+*/
 
+    /* Hobbies text uses one column on mobile */
     .col-2-text-block {
         grid-column: span 1;
         padding: 20px 20px;
     }
 
-    /* Hero one column configuration 
+    /* Hero one column configuration */
     .hero-img-container {
         text-align: center;
         grid-row: 1;
