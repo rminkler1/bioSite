@@ -206,7 +206,7 @@ footer p {
 /*
 Responsive Design for small screens
 */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
 
     /* Switch to single col layout on small screens */
     .grid-3-col, .grid-2-col {
@@ -242,7 +242,7 @@ Responsive Design for small screens
 
     /* Enlarge all text on small screens */
     body {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     /* Center top navigation on small screens */
