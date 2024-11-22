@@ -205,15 +205,15 @@ footer p {
 
 /*
 Responsive Design for small screens
-*/
+
 @media screen and (max-width: 1025px) {
 
-    /* Switch to single col layout on small screens */
+    /* Switch to single col layout on small screens 
     .grid-3-col, .grid-2-col {
         grid-template-columns: 1fr;
     }
 
-    /* Hide orange bar on nav */
+    /* Hide orange bar on nav 
     #orange-nav-bar {
         visibility: hidden;
     }
@@ -224,7 +224,7 @@ Responsive Design for small screens
         padding: 20px 20px;
     }
 
-    /* Hero one column configuration */
+    /* Hero one column configuration 
     .hero-img-container {
         text-align: center;
         grid-row: 1;
@@ -266,5 +266,5 @@ Responsive Design for small screens
         width: 400px;
         height: 400px;
         
-    }*/
-  }
+    }
+  }*/
