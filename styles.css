@@ -149,7 +149,6 @@ footer p {
 .grid-2-col {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px 50px;
 }
 
 .grid-3-col {
@@ -173,10 +172,20 @@ footer p {
 .hero-img {
     max-width: 400px;
     max-height: 400px;
+    display: block;
+    margin: 0 auto 0 50px;
+}
+
+.hero-img-container {
+    width: 100%;
+    grid-column: 2;
+    grid-row: 1;
 }
 
 .hero-text {
     padding: 0 0 0 50px;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .three-image-bar {
@@ -202,5 +211,20 @@ Responsive Design for small screens
     .col-2-text-block {
         grid-column: span 1;
         padding: 20px 20px;
+    }
+
+    .hero-img-container {
+        text-align: center;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .hero-img {
+        margin: 0 auto 20px auto;
+    }
+
+    .hero-text {
+        grid-row: 2;
+        grid-column: 1;
     }
   }
