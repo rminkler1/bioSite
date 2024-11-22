@@ -222,8 +222,8 @@ Responsive Design for small screens
 
     /* Hobbies text uses one column on mobile */
     .col-2-text-block {
-        grid-column: span 1;
         padding: 20px 20px;
+        grid-column: 1;
     }
 
     /* Hero one column configuration */
