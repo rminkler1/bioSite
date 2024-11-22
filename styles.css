@@ -246,6 +246,7 @@ Responsive Design for small screens
     }
 
     /* Center top navigation on small screens */
+    /*
     nav {
         width: 100%;
     }
@@ -255,7 +256,7 @@ Responsive Design for small screens
         margin-right: auto;
         margin-left: auto;
     }
-
+*/
     /* Enlarge Image Cards on small screens */
     .card-figure {
         width: 400px;
