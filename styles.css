@@ -73,7 +73,7 @@ blockquote {
     border-radius: 25px;;
     width: 250px;
     height: 250px;
-    box-shadow: 5px 8px 15px #02515955;
+    box-shadow: 5px 5px 30px rgba(0,0,0,.4);
 }
 
 .card-caption {
