@@ -255,4 +255,14 @@ Responsive Design for small screens
         margin-right: auto;
         margin-left: auto;
     }
+
+    /* Enlarge Image Cards on small screens */
+    .card-figure {
+        width: 400px;
+    }
+
+    .card-img {
+        width: 400px;
+        height: 400px;
+    }
   }
