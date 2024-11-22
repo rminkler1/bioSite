@@ -240,7 +240,7 @@ Responsive Design for small screens
         grid-column: 1;
     }
 
-    /* Enlarge all text on small screens */
+    /* Enlarge all text on small screens 
     body {
         font-size: 2.5em;
     }
@@ -257,7 +257,7 @@ Responsive Design for small screens
         margin-left: auto;
     }
 */
-    /* Enlarge Image Cards on small screens */
+    /* Enlarge Image Cards on small screens 
     .card-figure {
         width: 400px;
     }
@@ -265,5 +265,6 @@ Responsive Design for small screens
     .card-img {
         width: 400px;
         height: 400px;
+        */
     }
   }
