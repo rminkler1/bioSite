@@ -78,7 +78,7 @@ blockquote {
 
 .card-caption {
     color: #ffffff;
-    font-size: .8em;
+    font-size: .9em;
     font-style: italic;
 }
 
@@ -92,6 +92,8 @@ figure {
 
 /* Header CSS */
 header {
+    font-size: 1.2em;
+    font-weight: 500;
     border-top: 30px solid #038c8c;
     background-color: #025159;
     padding: 0px 50px;
